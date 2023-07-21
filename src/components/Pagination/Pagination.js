@@ -43,9 +43,9 @@ const Pagination = ({ info, pageNumber, updatePageNumber }) => {
         className="pagination justify-content-center gap-4 my-4"
         forcePage={pageNumber === 1 ? 0 : pageNumber - 1}
         previousLabel="Prev"
-        previousClassName="btn btn-primary fs-5 prev"
+        previousClassName="btn fs-5 prev"
         nextLabel="Next"
-        nextClassName="btn btn-primary fs-5 next"
+        nextClassName="btn fs-5 next"
         pageClassName="page-item"
         pageLinkClassName="page-link"
         activeClassName="active"
